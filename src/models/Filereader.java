@@ -1,3 +1,12 @@
+/*
+File: Filereader.java
+Author: Szinyei Mikes
+Copyright: 2023, Szinyei Mikes
+Group: Szoft II-2 N
+Date: 2023-10-12
+Github: https://github.com/MikesSzinyei/
+Licenc: GNU GPL 
+*/
 package models;
 
 import java.io.File;
