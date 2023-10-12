@@ -8,12 +8,13 @@ Github: https://github.com/MikesSzinyei/
 Licenc: GNU GPL 
 */
 import controllers.MainController;
+import models.Filereader;
 
 
 
 public class App {
     public static void main(String[] args) throws Exception {
         new MainController();
-
+        new Filereader().loadData();
     }
 }

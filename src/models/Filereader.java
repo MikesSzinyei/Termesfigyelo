@@ -43,7 +43,12 @@ public class Filereader {
             forage.setTermes(Integer.parseInt(lineArray[3]));
             forage.setBetakaritas(lineArray[4]);
             this.forageList.add(forage);
-            //System.out.println(forage.getNev());
+            System.out.println("");
+            System.out.print(forage.getId()+", ");
+            System.out.print(forage.getNev()+", ");
+            System.out.print(forage.getDulo()+", ");
+            System.out.print(forage.getTermes()+", ");
+            System.out.print(forage.getBetakaritas());
         }
         sc.close();
     }
